@@ -8,7 +8,7 @@ import {TransformPipeConstruct} from "./constructs/transform-pipe-construct";
 import TableConstruct from "./constructs/table-construct";
 import {FunctionConstruct} from "./constructs/function-construct";
 
-export class DdbGlueAnalyticsStack extends cdk.Stack {
+export class DdbPartitionedS3Stack extends cdk.Stack {
     constructor(scope: Construct, id: string, props?: cdk.StackProps) {
         super(scope, id, props);
 

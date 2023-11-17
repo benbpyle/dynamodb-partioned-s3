@@ -1,8 +1,8 @@
 {
-  "name": "ddb-glue-analytics",
+  "name": "ddb-partitioned-s3",
   "version": "0.1.0",
   "bin": {
-    "month-end-close-firehose": "bin/ddb-glue-analytics.js"
+    "month-end-close-firehose": "bin/ddb-partitioned-s3.js"
   },
   "scripts": {
     "build": "tsc",
